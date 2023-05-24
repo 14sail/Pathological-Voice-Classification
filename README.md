@@ -16,7 +16,7 @@ AI CUP 2023 春季賽TEAM_3071
 ### 多尺度SincNet模型
 <img width="410" alt="image" src="https://github.com/14sail/Pathological-Voice-Classification/assets/112383122/df19b8da-affc-461c-b772-4540a37e16da">
 
-### Mel頻譜圖與MFCC圖轉換
+### Mel頻譜圖與MFCC圖轉換的EfficientNet
 <img width="326" alt="image" src="https://github.com/14sail/Pathological-Voice-Classification/assets/112383122/b305db18-a796-4302-bcd2-18cb6466e513">
 
 ## 程式碼
