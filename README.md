@@ -19,5 +19,10 @@ AI CUP 2023 春季賽TEAM_3071
 ### Mel頻譜圖與MFCC圖轉換
 <img width="326" alt="image" src="https://github.com/14sail/Pathological-Voice-Classification/assets/112383122/b305db18-a796-4302-bcd2-18cb6466e513">
 
-
-內容規定：請在此提供程式碼下載連結並請於信件中附檔(如檔案太大可省略)，包含資料處理、訓練流程、預測等相關程式碼。程式碼應附README.md檔案交代安裝配置環境，重要模塊輸出/輸入，以讓第三方用戶可以除錯、重新訓練與重現結果。繳交前請確認連結有效且有開啟瀏覽權限，如連結失效視同未交。
+## 程式碼
+1.：資料處理
+1.：sincnet模型建立
+1.：Mel頻譜的EfficientNet-B0
+1.：MFCC的EfficientNet-B4
+1.：機器學習演算法
+1.：集成學習
