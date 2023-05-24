@@ -21,8 +21,13 @@ AI CUP 2023 春季賽TEAM_3071
 
 ## 程式碼
 1.：資料處理
-1.：sincnet模型建立
-1.：Mel頻譜的EfficientNet-B0
-1.：MFCC的EfficientNet-B4
-1.：機器學習演算法
-1.：集成學習
+
+2.：sincnet模型建立
+
+3.：Mel頻譜的EfficientNet-B0
+
+4.：MFCC的EfficientNet-B4
+
+5.：機器學習演算法
+
+6.：集成學習
