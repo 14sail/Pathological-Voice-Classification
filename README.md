@@ -21,7 +21,7 @@ AI CUP 2023 春季賽TEAM_3071
 <img width="500" alt="image" src="https://github.com/14sail/Pathological-Voice-Classification/assets/112383122/b305db18-a796-4302-bcd2-18cb6466e513">
 
 ## 程式碼
-1.[**data preprocessing.ipynb**](https://github.com/14sail/Pathological-Voice-Classification/blob/main/data%20preprocessing.ipynb)：資料處理
+1. [**data preprocessing.ipynb**](https://github.com/14sail/Pathological-Voice-Classification/blob/main/data%20preprocessing.ipynb)：資料處理
   * 本檔案將對資料進行前處理，可分為5個部份：
   > audio : 將音訊載入，並將其填充0（padding）到相同長度（3秒）
   
@@ -34,20 +34,20 @@ AI CUP 2023 春季賽TEAM_3071
   > label : 目標類別
   * 下方為Training Dataset的資料處理，Public Dataset 與 Private Dataset使用相同的資料處理，因此將不冗述
 
-2.[**sincnet.ipynb**](https://github.com/14sail/Pathological-Voice-Classification/blob/main/sincnet.ipynb)：sincnet模型建立
+2. [**sincnet.ipynb**](https://github.com/14sail/Pathological-Voice-Classification/blob/main/sincnet.ipynb)：sincnet模型建立
   * 本檔案使用資料處理後的音訊資料語病史進行訓練與預測
   * 訓練結果的模型權重將存為「sincnet.h5'」
 
-3.[**mels(EfficientNetB4).ipynb**](https://github.com/14sail/Pathological-Voice-Classification/blob/main/mels(EfficientNetB4).ipynb)：Mel頻譜的EfficientNet-B0
+3. [**mels(EfficientNetB4).ipynb**](https://github.com/14sail/Pathological-Voice-Classification/blob/main/mels(EfficientNetB4).ipynb)：Mel頻譜的EfficientNet-B0
   * 本檔案使用資料處理後的Mel頻譜圖進行訓練與預測
   * 為了滿足預訓練模型所需，在進入模型之前先將影像疊為三通道
   * 訓練結果的模型權重將存為「mels.h5'」
   
-4.[**mfcc(EfficientNetB0).ipynb**](https://github.com/14sail/Pathological-Voice-Classification/blob/main/mfcc(EfficientNetB0).ipynb)：MFCC的EfficientNet-B4
+4. [**mfcc(EfficientNetB0).ipynb**](https://github.com/14sail/Pathological-Voice-Classification/blob/main/mfcc(EfficientNetB0).ipynb)：MFCC的EfficientNet-B4
   * 本檔案使用資料處理後的MFCC圖進行訓練與預測
   * 為了滿足預訓練模型所需，在進入模型之前先將影像疊為三通道
   * 訓練結果的模型權重將存為「mfcc.h5'」
 
-5.[**ML and ensemble.ipynb**](https://github.com/14sail/Pathological-Voice-Classification/blob/main/ML%20and%20ensemble.ipynb)：機器學習演算法與集成學習
+5. [**ML and ensemble.ipynb**](https://github.com/14sail/Pathological-Voice-Classification/blob/main/ML%20and%20ensemble.ipynb)：機器學習演算法與集成學習
   * 本檔案使用資料處理後的病史資料，使用機器學習演算法進行進行訓練與預測
   > 使用訓練好的三個模型（存好的三個權重'sincnet.h5','mfcc.h5','mels.h5')與三個機器學習演算法（SVM,ExtraTree,XGB）進行集成
