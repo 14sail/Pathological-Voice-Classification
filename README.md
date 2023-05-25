@@ -12,16 +12,16 @@ AI CUP 2023 春季賽TEAM_3071
 * focal-loss: 0.0.7
 
 ## 模型架構
-<img width="424" alt="image" src="https://github.com/14sail/Pathological-Voice-Classification/assets/112383122/f30c4827-a69b-40df-b1fc-af686de3e516">
+<img width="500" alt="image" src="https://github.com/14sail/Pathological-Voice-Classification/assets/112383122/f30c4827-a69b-40df-b1fc-af686de3e516">
 
 ### 多尺度SincNet模型
-<img width="410" alt="image" src="https://github.com/14sail/Pathological-Voice-Classification/assets/112383122/df19b8da-affc-461c-b772-4540a37e16da">
+<img width="500" alt="image" src="https://github.com/14sail/Pathological-Voice-Classification/assets/112383122/df19b8da-affc-461c-b772-4540a37e16da">
 
 ### Mel頻譜圖與MFCC圖轉換的EfficientNet
-<img width="326" alt="image" src="https://github.com/14sail/Pathological-Voice-Classification/assets/112383122/b305db18-a796-4302-bcd2-18cb6466e513">
+<img width="500" alt="image" src="https://github.com/14sail/Pathological-Voice-Classification/assets/112383122/b305db18-a796-4302-bcd2-18cb6466e513">
 
 ## 程式碼
-1.**data preprocessing.ipynb**：資料處理
+1.[**data preprocessing.ipynb**](https://github.com/14sail/Pathological-Voice-Classification/blob/main/data%20preprocessing.ipynb)：資料處理
   * 本檔案將對資料進行前處理，可分為5個部份：
   > audio : 將音訊載入，並將其填充0（padding）到相同長度（3秒）
   
