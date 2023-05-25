@@ -34,12 +34,12 @@ AI CUP 2023 春季賽TEAM_3071
   * 本檔案使用資料處理後的音訊資料語病史進行訓練與預測
   * 訓練結果的模型權重將存為「sincnet.h5'」
 
-3. [**mels(EfficientNetB4).ipynb**](https://github.com/14sail/Pathological-Voice-Classification/blob/main/mels(EfficientNetB4).ipynb)：Mel頻譜的EfficientNet-B0
+3. [**mels(EfficientNetB4).ipynb**](https://github.com/14sail/Pathological-Voice-Classification/blob/main/mels(EfficientNetB4).ipynb)：Mel頻譜的EfficientNet-B4
   * 本檔案使用資料處理後的Mel頻譜圖進行訓練與預測
   * 為了滿足預訓練模型所需，在進入模型之前先將影像疊為三通道
   * 訓練結果的模型權重將存為「mels.h5'」
   
-4. [**mfcc(EfficientNetB0).ipynb**](https://github.com/14sail/Pathological-Voice-Classification/blob/main/mfcc(EfficientNetB0).ipynb)：MFCC的EfficientNet-B4
+4. [**mfcc(EfficientNetB0).ipynb**](https://github.com/14sail/Pathological-Voice-Classification/blob/main/mfcc(EfficientNetB0).ipynb)：MFCC的EfficientNet-B0
   * 本檔案使用資料處理後的MFCC圖進行訓練與預測
   * 為了滿足預訓練模型所需，在進入模型之前先將影像疊為三通道
   * 訓練結果的模型權重將存為「mfcc.h5'」
